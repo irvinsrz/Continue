@@ -1,10 +1,7 @@
-students = [
-    ["BSIT", ["irvin","paul"]],
-    ["BSSW", ["kristel","keigi","gi"]]
-]
+def square(number):
+    number = number * number
+    return number
+number = eval(input("Enter a number: "))
 
-for course in students:
-    print(course[0])
-    for student in course[1]:
-        print(student)
-    print()
+print(number)
+print(square(number))
